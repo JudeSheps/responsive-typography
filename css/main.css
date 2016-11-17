@@ -13,7 +13,8 @@ html {
   font-family: "Crimson Text", serif;
   color: #222;
 
-  font:  normal 100%/1.3 san;
+  font-size: 100%;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
@@ -23,6 +24,11 @@ html {
 body {
   margin: 0;
   padding: 1em;
+}
+
+h1,
+p {
+  margin: 0 0 1.3rem;
 }
 
 article {
@@ -56,11 +62,6 @@ blockquote {
   color: #999;
 }
 
-h1,
-p {
-  margin: 0 0 1.3rem;
-}
-
 h1 {
   margin-bottom: 0;
 }
@@ -70,7 +71,7 @@ blockquote {
   margin-right: 0;
 }
 
-aticle ol {
+article ol {
   padding: 1rem;
 }
 
@@ -82,7 +83,7 @@ aticle ol {
   }
 
   h1 {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
 }
@@ -100,12 +101,12 @@ aticle ol {
   }
 
   h1 {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   blockquote {
-  margin-left: 3rem;
-  margin-right: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
 }
@@ -123,7 +124,7 @@ aticle ol {
   }
 
   h1 {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   blockquote {
@@ -161,7 +162,7 @@ aticle ol {
   }
 
   h1 {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   blockquote {
