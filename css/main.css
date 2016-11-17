@@ -31,6 +31,10 @@ p {
   margin: 0 0 1.3rem;
 }
 
+h1 {
+  margin-bottom: 0;
+}
+
 article {
   max-width: 43em;
 }
@@ -47,6 +51,14 @@ article header p {
   font-style: italic;
 }
 
+article p {
+  margin: 1.3rem 0 0 0;
+}
+
+header p {
+  margin: 0 0 1.3rem 0;
+}
+
 article > p:last-child {
   border-bottom: 1px solid #999;
   padding-bottom: 1em;
@@ -56,19 +68,12 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .quote {
   color: #999;
-}
-
-h1 {
-  margin-bottom: 0;
-}
-
-blockquote {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 article ol {
